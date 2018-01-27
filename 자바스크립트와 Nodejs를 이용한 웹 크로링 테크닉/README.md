@@ -26,11 +26,11 @@ $node
 /* nvm 를 sudo 명령과 함께 사용하게 하기 
 $sudo visudo 
 /* 환경 설정 파일 변경 */ 
-## 첫번 수정(env_reset 무효화 ) 
+## 첫번째 수정(env_reset 무효화 ) 
 Default env_reset -> #Default env_reset
 ## 두번째 수정(HOME을 추가 ) 
 #Default env_keep +="HOME" -> Default env_keep +="HOME"
-### 세번 수정( sudo 명령어 실행시 사용할 패스를 덮어 쓰지 않도록 주석 처리한다. ) 
+### 세번째 수정( sudo 명령어 실행시 사용할 패스를 덮어 쓰지 않도록 주석 처리한다. ) 
 Defaults secure_path = /sbin;/bin;/usr/sbin;/usr/bin -> # Defaults secure_path = /sbin;/bin;/usr/sbin;/usr/bin
 /* git 설치 */ 
 $sudo yum install git 
