@@ -15,7 +15,7 @@ vagrant init
 config.vm.box = "puphpet/centos65-x64" 
 vagrant up ( vagrant up --provider virtualbox ) 
 vagrant status
-/ * default  ID/PW vagrant / vagrant ##   
+## default  ID/PW vagrant / vagrant ##   
 vagrant ssh 
 ## Node.js 설치 
    1. nvm 설치 - 재 로그인 
@@ -53,11 +53,11 @@ $vagrant plugin install vagrant-vbguest
 
 ## Node.js 모듈 설치 ## 
 $npm install request 
-# 모듈을 글로벌 하게 설치 
+## 모듈을 글로벌 하게 설치 
 $ npm install -g ( 모듈 이름 ) 
-# 관리자 권한으로 설치 
+## 관리자 권한으로 설치 
 $sudo npm install -g ( 모듈 이름 ) 
-# 글로벌 설치 경로 확인 
+## 글로벌 설치 경로 확인 
 $npm root -g 
 node -e "console.log(global.module.paths)"
 ## 환경 변수에 등록 하기 
