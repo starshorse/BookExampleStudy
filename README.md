@@ -13,13 +13,12 @@ vagrant init
 ## Vagrantfile 편집 ##
 #config.vm.box ="base"  
 config.vm.box = "puphpet/centos65-x64" 
->vagrant up ( vagrant up --provider virtualbox ) 
+>vagrant up ( vagrant up --provider virtualbox )  
 >vagrant status
 ## default  ID/PW vagrant / vagrant ##   
-vagrant ssh 
+>vagrant ssh 
 ## Node.js 설치 
    1. nvm 설치 - 재 로그인 
-
 ##
 $curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.25.3/install.sh | bash 
 $nvm install v0.12.4 
@@ -61,7 +60,7 @@ $sudo npm install -g ( 모듈 이름 )
 $npm root -g 
 node -e "console.log(global.module.paths)"
 ## 환경 변수에 등록 하기 
-   ~/.bash_profile  '/home/vagrant/.bash_profile' 편집한다.## 
+   ~/.bash_profile  '/home/vagrant/.bash_profile' 편집한다. ## 
 export  NODE_PATH=/home/vagrant/.nvm/versions/node/v0.12.4/lib/node_modules 
 $sudo yum install nano 
 $nano ~/.bash_profile 
