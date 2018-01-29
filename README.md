@@ -6,15 +6,15 @@
 https://github.com/Jpub/JSWebCrawler 
 
 ## VirtualBox 인스톨 ##
-## Vagrant > Download * / 
+## Vagrant > Download ##
 https://www.vagrantup.com/downloads.html 
 ## 가상 머신 추가 -> 디렉토리 만들기 ## 
 vagrant init 
 ## Vagrantfile 편집 ##
 #config.vm.box ="base"  
 config.vm.box = "puphpet/centos65-x64" 
-vagrant up ( vagrant up --provider virtualbox ) 
-vagrant status
+>vagrant up ( vagrant up --provider virtualbox ) 
+>vagrant status
 ## default  ID/PW vagrant / vagrant ##   
 vagrant ssh 
 ## Node.js 설치 
