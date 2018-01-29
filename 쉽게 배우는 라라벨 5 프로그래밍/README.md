@@ -1,4 +1,4 @@
-/* È¨½ºÅ×µå ±¸¼º  ¶ó¶óº§ ¹Ú½º »ı¼º */ 
+## í™ˆìŠ¤í…Œë“œ êµ¬ì„±  ë¼ë¼ë²¨ ë°•ìŠ¤ ìƒì„±## 
 D:\#VirtualBOX\vgrants-laravel>vagrant box add laravel/homestead
 ==> box: Loading metadata for box 'laravel/homestead'
     box: URL: https://vagrantcloud.com/laravel/homestead
@@ -11,9 +11,9 @@ the provider you will be working with.
 3) virtualbox
 4) vmware_desktop
 
-Enter your choice: 3 ¼±ÅÃÇÑ´Ù. 
+Enter your choice: 3 ì„ íƒí•œë‹¤. 
 
-/* ÇÇµé·¯ ¼³Ä¡ */
+## í”¼ë“¤ëŸ¬ ì„¤ì¹˜ ##
 https://www.telerik.com/fiddler
 Filters->Use Filters->Show only the following Hosts: homestead.app; www.google.com;www.google.co.kr
 Action->[Run Filterset now] 
